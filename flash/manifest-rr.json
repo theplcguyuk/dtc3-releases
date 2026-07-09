@@ -1,0 +1,14 @@
+{
+  "name": "DTC3-RR",
+  "version": "1.0.1",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "https://github.com/theplcguyuk/dtc3-releases/releases/download/DTC3-RR-raw-v1.0.1/bootloader.bin", "offset": 0 },
+        { "path": "https://github.com/theplcguyuk/dtc3-releases/releases/download/DTC3-RR-raw-v1.0.1/partitions.bin", "offset": 32768 },
+        { "path": "https://github.com/theplcguyuk/dtc3-releases/releases/download/DTC3-RR-raw-v1.0.1/firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
