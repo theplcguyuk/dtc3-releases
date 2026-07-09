@@ -7,7 +7,8 @@
       "parts": [
         { "path": "bin/rr/bootloader.bin", "offset": 0 },
         { "path": "bin/rr/partitions.bin", "offset": 32768 },
-        { "path": "bin/rr/firmware.bin", "offset": 65536 }
+        { "path": "bin/rr/firmware.bin", "offset": 65536 },
+        { "path": "bin/rr/spiffs.bin", "offset": 2686976 }
       ]
     }
   ]
